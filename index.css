@@ -1,0 +1,114 @@
+body {
+    margin: 40px 0px;
+    background-color: #232020;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+#top-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #553739;
+    width: 550px;
+    height: 285px;
+    color: #F7EAD7;
+    
+}
+
+#top-body > h1 {
+    font-size: 28px;
+    margin-top: 35px;
+}
+
+
+#top-body > input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 117px;
+    height: 83px;
+    font-size: 58px;
+    font-weight: 800;
+    background:none;
+    color: #F7EAD7;
+    border: 2px solid #e6d8bc;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+#top-body > button {
+    width: 117px;
+    height: 42px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #F3E5D5;
+    color: #4A3434;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.1s ease, filter 0.1s ease;
+}
+
+#top-body > button:hover {
+    filter: brightness(0.95);
+}
+
+#top-body > button:active {
+    transform: scale(0.96);
+    filter: brightness(0.9);
+}
+
+#bottom-body {
+    width: 550px;
+    height: 444px;
+    background-color: #F7EAD7;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#bottom-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.metric-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 500px;
+    height: 108.57px;
+    background-color: #DFD5C3;
+    border-radius: 5px;
+
+}
+
+.first-p {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #574142;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+
+.second-p {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
